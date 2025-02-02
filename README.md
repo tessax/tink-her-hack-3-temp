@@ -2,38 +2,36 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Team 1 
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Tessa Abraham - [College of Engineering kallooppara]
+- Member 2: Arsha Babu - [College of Engineering kallooppara]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+It is a Journeling platform,having many features like to write about a day and save it,we can alo record voice and videos.there is a cool feature called Time Capsule where we can message to our future selves.
+
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Most of the diary entry sites only have the write option.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+Here we are overcoming this solution by introducing new and cool features
+-A voice recorder through which we can record in our own sound
+-A video Recorder to vlog and record and save our special moments
+-A Time capsule message our future selves
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+-html
+-css
+-javascript
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:

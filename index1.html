@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journal</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>My Journal</h1>
+    </header>
+
+    <!-- Navigation to switch sections -->
+    <nav>
+        <button onclick="showSection('myDay')">My Day</button>
+        <button onclick="showSection('voiceRecording')">Voice Recording</button>
+        <button onclick="showSection('videoRecording')">Video Recording</button>
+        <button onclick="showSection('timeCapsule')">Time Capsule</button>
+    </nav>
+
+    <!-- My Day Section -->
+    <div id="myDay" class="section active">
+        <h2>My Day</h2>
+        <input type="text" id="entryTitle" placeholder="Title">
+        <textarea id="newEntryDay" placeholder="Write about your day..."></textarea>
+        <input type="date" id="deliveryDate">
+        <button id="saveEntryDay">Save Entry</button>
+        <h3>Past Entries</h3>
+        <div id="postListDay"></div>
+    </div>
+
+    <!-- Voice Recording Section -->
+    <div id="voiceRecording" class="section" style="display:none;">
+        <h2>🎙️ Voice Recording</h2>
+        <button id="startRecord">Start Recording</button>
+        <button id="stopRecord" disabled>Stop Recording</button>
+        <button id="deleteAudio">Delete Recording</button>
+        <audio id="audioPlayback" controls></audio>
+    </div>
+
+    <!-- Video Recording Section -->
+    <div id="videoRecording" class="section" style="display:none;">
+        <h2>📹 Video Recording</h2>
+        <video id="videoPreview" autoplay></video>
+        <button id="startVideo">Start Video</button>
+        <button id="stopVideo" disabled>Stop Video</button>
+        <button id="deleteVideo">Delete Recording</button>
+        <video id="videoPlayback" controls></video>
+    </div>
+
+    <!-- Time Capsule Section -->
+    <div id="timeCapsule" class="section" style="display:none;">
+        <h2>Time Capsule</h2>
+        <textarea id="futureMessage" placeholder="Write your message for the future..."></textarea>
+        <input type="date" id="futureDeliveryDate">
+        <button id="saveMessage">Save Message</button>
+        <button id="viewMessage">View Message</button>
+        <div id="messageDisplay"></div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
